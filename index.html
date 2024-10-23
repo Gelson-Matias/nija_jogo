@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>NINJA</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/main.min.css">
+		<link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/fontawesome-4.6.3.min.css">
+	</head>
+	<body>
+		<!-- jogo canvas -->
+		<canvas id="c"></canvas>
+		<!-- Jogador HUD -->
+		<div class="hud">
+			<div class="hud__score">
+				<div class="score-lbl"></div>
+				<div class="cube-count-lbl"></div>
+			</div>
+				<div class="pause-btn">
+					<div></div>
+				</div>
+			<div class="slowmo">
+				<div class="slowmo__bar"></div>
+			</div>
+		</div>
+
+		<!-- Menu  -->
+		<div class="menus bg-light">
+			<div class="menu menu--main">
+				<h1>NINJA JOGO </h1><br> <br><br>
+				<button type="button" class="play-normal-btn">JOGAR MODO DIFICÍL</button>
+				<button type="button" class="play-casual-btn">MODO CASUAL</button>
+				<div class="credits">Jogo criado por <a href="https://" style="color: blueviolet;">Gelson Matias</a></div>
+			</div>
+			
+			<div class="menu menu--pause">
+				<h1>JOGO PAUSADO</h1>
+				<button type="button" class="resume-btn">VOLTAR A JOGAR</button>
+				<button type="button" class="menu-btn--pause">IR PARA MENU</button>
+			</div>
+
+			<div class="menu menu--score">
+				<h1>JOGO TERMINADO</h1>
+				<h2>TEU RECORDE:</h2>
+				<div class="final-score-lbl"></div>
+				<div class="high-score-lbl"></div>
+				<button type="button" class="play-again-btn">JOGAR DE NOVO</button>
+				<button type="button" class="menu-btn--score">IR PARA MENU</button>
+			</div>
+		</div>
+		<script src="js/main.min.js"></script>
+	</body>
+</html>

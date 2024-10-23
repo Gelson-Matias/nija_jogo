@@ -1,0 +1,45 @@
+/*IcoMoon-Free.ttf*/
+ @charset "utf-8";
+    @font-face{
+  font-family: 'BorisBlackBloxxDirty';
+  src:url(fonts/CaviarDreams.ttf);
+}
+*{
+	font-family: calibri;
+	font-family: BorisBlackBloxxDirty;
+	transition: all .5s;
+	-o-transition: all .5s;
+	-ms-transition: all .5s;
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;
+}
+#pagina{
+
+	background-color: #fff;
+	width: 100%;
+	padding: 0px;
+	position: fixed;
+	margin: 0px;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	overflow: hidden;
+}
+.geralAside{
+		margin: 10px;
+		height: 98%;
+}
+.asideLeft{
+	float: left;
+	margin-left: 0px;
+	background-color: #ccc;
+	width: auto;
+	border-right: 1px solid #fff;
+
+}
+.asideRight{
+
+	width: auto;
+	float: right;
+	background-color: #ccc;
+}

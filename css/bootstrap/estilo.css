@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+
+  #link :hover{
+       font-size: 19.9px;
+       border-bottom: #ecedf0eb 0.5px solid;
+       transition: all 0.2s;
+      
+      }
+      #link{
+       font-size: 15.9px;
+       margin: 0px 10px 0px;            
+      }
+       #aluno a:hover{
+       	color: black;
+      	background: white;
+       border-bottom: none;
+       font-size: 14.9px;
+           
+      }
+       #curso a:hover{
+       	color: black;
+      	background: white;
+       border-bottom: none;
+       font-size: 14.9px;
+           
+      }
+       #pagamento a:hover{
+       	color: black;
+       background: white;
+       border-bottom: none;
+       font-size: 14.9px;
+           
+      }
+      
+      #pagamento a,#curso a,#aluno a{
+       	color: #00c0ef;     
+           
+      }
+
+      #usuario :hover{
+        cursor:pointer;
+        
+      }
+      #perfil_usuario{
+        display: none;
+        width: 20%;
+        right: 0.6pc;
+        margin: 0;
+        position: absolute;
+        top:2.5pc;
+        z-index: 10;
+        box-shadow: rgba(0,0,0,0.2) 0px 6px 7px;
+      }
+      #user{
+        color: white;
+      }
+      #user:hover{
+        color: black;
+      }

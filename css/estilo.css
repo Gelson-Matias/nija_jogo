@@ -1,0 +1,122 @@
+body{
+    background-color: #011f26;
+    margin: 0px;
+    padding: 0px;
+}
+#imgUser{
+    border-radius: 50%;
+    width:90%;
+    /* height: 30vh; */
+    margin: 0px;
+    padding: 0px;
+    shape-outside: circle();
+    clip-path: circle();
+    -webkit-mask-image: linear-gradient(to top, transparent 20%, #112026 75%);
+}
+#img-me{
+    width: 70%; 
+    margin: 0px;
+    padding: 0px;
+    shape-outside: circle();
+    clip-path: circle();
+     -webkit-filter: grayscale(50%) blur(10px);
+	filter: grayscale(90%) blur(0.7px);
+}
+.div-imgJob{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imgJob{
+    width: 100%; 
+    margin: 0px;
+    padding: 0px;
+    shape-outside: circle();
+    clip-path: circle();
+     -webkit-filter: grayscale(50%) blur(10px);
+	filter: grayscale(90%) blur(0.7px);
+}
+#circulo1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: #1F3740;
+    margin-top: 30px;
+    background: #112026;
+    width: 100%;
+    height: 20vh;
+    shape-outside: circle();
+    clip-path: circle();
+}
+#circulo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #112026;
+    margin-top: 30px;
+    background: #1F3740;
+    width: 100%;
+    height: 20vh;
+    shape-outside: circle();
+    clip-path: circle();
+}
+#circulo3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F3740;
+    margin-top: 30px;
+    background: #2F6673;
+    width: 100%;
+    height: 20vh;
+    shape-outside: circle();
+    clip-path: circle();
+}
+#circulo4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2F6673;
+    margin-top: 30px;
+    background: #B0D1D9;
+    width: 100%;
+    height: 20vh;
+    shape-outside: circle();
+    clip-path: circle();
+}
+.contianer_about{
+    display: flex;
+}
+.contianer_about div img {
+    -webkit-filter: grayscale(50%) blur(2px);
+	filter: grayscale(50%) blur(2px);
+    transition: all 0.5s;
+}
+.contianer_about div:hover img {
+    -webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(0) blur(0);
+    transition: all 0.8s;
+    width: 100%;
+}
+
+.resume .resume-item{
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+}
+.resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #69bbf7;
+    border: 2px solid #1f5297;
+}
+.resume{
+    background-color: #011c22;
+}
+
